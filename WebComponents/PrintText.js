@@ -9,7 +9,7 @@ class PrintText extends HTMLElement {
     const shadow = this.attachShadow({ mode: 'open' })
 
     const p = document.createElement('p')
-    p.append(this.getAttribute('text'))
+    p.append(this.getAttribute('text') || 'none')
     shadow.appendChild(p)
   }
 }
