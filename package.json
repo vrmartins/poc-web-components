@@ -1,0 +1,21 @@
+{
+  "name": "poc-web-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vrmartins/poc-web-components.git",
+  "author": "Vilmar Rodrigues Martins <vilmar.rodrigs@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint .",
+    "lint:fix": "node_modules/.bin/eslint . --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
